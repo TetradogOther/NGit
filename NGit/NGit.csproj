@@ -11,18 +11,13 @@
     <PackageProjectUrl>https://github.com/TetradogOther/ngit/tree/netstandard2.0</PackageProjectUrl>
     <RepositoryUrl>https://github.com/TetradogOther/ngit/tree/netstandard2.0</RepositoryUrl>
     <Description>a simple port to .netstandard2.0</Description>
-    <PackageReleaseNotes>falta acabar Mono.Security.Port para que sea 100% .netstandard2.0</PackageReleaseNotes>
+    <PackageReleaseNotes></PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NSch.Port" Version="1.0.0" />
     <PackageReference Include="Sharpen.Port" Version="1.0.0" />
     <PackageReference Include="SharpZipLib.Port" Version="1.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="NSch">
-      <HintPath>..\..\..\..\Documents\SharpDevelop Projects\ngit\bin\NSch.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>
